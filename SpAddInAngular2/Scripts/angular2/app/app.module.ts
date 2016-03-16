@@ -1,5 +1,5 @@
-﻿export class Welcome {
-    public static getMessage() {
-         return 'Hello, World!';
+﻿export class Titulo {
+    public static getTitulo() {
+         return 'Angular 2 en SharePoint Add-in';
     }
 }

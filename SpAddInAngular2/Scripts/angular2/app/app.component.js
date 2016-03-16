@@ -23,11 +23,13 @@ System.register(['./app.module', 'angular2/core'], function(exports_1, context_1
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
+                    this.title = app_module_1.Titulo.getTitulo();
+                    this.nombre = 'Fran';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'app-main',
-                        template: "<h1>" + app_module_1.Welcome.getMessage() + "</h1>"
+                        templateUrl: '../Scripts/angular2/app/templates/app.template.html',
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);

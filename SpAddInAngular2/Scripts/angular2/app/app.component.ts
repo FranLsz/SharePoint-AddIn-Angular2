@@ -1,9 +1,12 @@
-﻿import {Welcome} from './app.module'
+﻿import {Titulo} from './app.module'
 import {Component} from 'angular2/core'
 
 @Component({
     selector: 'app-main',
-    template: `<h1>${Welcome.getMessage()}</h1>`
+    templateUrl: '../Scripts/angular2/app/templates/app.template.html', 
 })
 
-export class AppComponent { }
+export class AppComponent {
+    public title = Titulo.getTitulo();
+    public nombre = 'Fran';
+}

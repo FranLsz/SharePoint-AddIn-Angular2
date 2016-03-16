@@ -1,19 +1,19 @@
 System.register([], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var Welcome;
+    var Titulo;
     return {
         setters:[],
         execute: function() {
-            Welcome = (function () {
-                function Welcome() {
+            Titulo = (function () {
+                function Titulo() {
                 }
-                Welcome.getMessage = function () {
-                    return 'Hello, World!';
+                Titulo.getTitulo = function () {
+                    return 'Angular 2 en SharePoint Add-in';
                 };
-                return Welcome;
+                return Titulo;
             }());
-            exports_1("Welcome", Welcome);
+            exports_1("Titulo", Titulo);
         }
     }
 });
