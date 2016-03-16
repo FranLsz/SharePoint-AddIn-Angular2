@@ -247,3 +247,4 @@ _Pvt_Extensions
 # JetBrains Rider
 .idea/
 *.sln.iml
+SpAddInAngular2/Scripts/angular2/typings/

@@ -43,23 +43,35 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <None Include="Features\Feature2\Feature2.feature">
+      <FeatureId>{c8e0c157-3e41-4303-aace-f86705a9f394}</FeatureId>
+    </None>
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f64c6bc5-4f28-410f-ba20-82895fe7f793}</SharePointProjectItemId>
     </None>
+    <Content Include="Features\Feature2\Feature2.Template.xml">
+      <DependentUpon>Feature2.feature</DependentUpon>
+    </Content>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\angular2\app\app.component.js.map" />
+    <None Include="Scripts\angular2\app\app.module.js.map" />
+    <None Include="Scripts\angular2\app\boot.js.map" />
+    <None Include="Scripts\angular2\package.json" />
+    <None Include="Scripts\angular2\tsconfig.json" />
+    <None Include="Scripts\angular2\typings.json" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{e2f8c826-27cb-4b70-a2b6-9c882c30cb7f}</SharePointProjectItemId>
     </None>
-    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\angular2\app\app.component.js" />
+    <Content Include="Scripts\angular2\app\app.module.js" />
+    <Content Include="Scripts\angular2\app\boot.js" />
     <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -85,17 +97,16 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
-      <FeatureId>{1d48a39a-d35d-403e-a70e-7ac5d2ca5d2e}</FeatureId>
-    </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <AppManifestFile Include="AppManifest.xml">
       <SubType>Designer</SubType>
     </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\angular2\app\app.component.ts" />
+    <TypeScriptCompile Include="Scripts\angular2\app\boot.ts" />
+    <TypeScriptCompile Include="Scripts\angular2\app\app.module.ts" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

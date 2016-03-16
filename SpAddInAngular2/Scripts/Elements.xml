@@ -1,10 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
+    <File Path="Scripts\angular2\package.json" Url="Scripts/angular2/package.json" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\tsconfig.json" Url="Scripts/angular2/tsconfig.json" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\typings.json" Url="Scripts/angular2/typings.json" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.module.ts" Url="Scripts/angular2/app/app.module.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\boot.ts" Url="Scripts/angular2/app/boot.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.component.ts" Url="Scripts/angular2/app/app.component.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.component.js" Url="Scripts/angular2/app/app.component.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.component.js.map" Url="Scripts/angular2/app/app.component.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.module.js" Url="Scripts/angular2/app/app.module.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\app.module.js.map" Url="Scripts/angular2/app/app.module.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\boot.js" Url="Scripts/angular2/app/boot.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\angular2\app\boot.js.map" Url="Scripts/angular2/app/boot.js.map" ReplaceContent="TRUE" />
     <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

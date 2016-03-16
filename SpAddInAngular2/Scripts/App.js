@@ -8,9 +8,9 @@ function initializePage()
     var user = context.get_web().get_currentUser();
 
     // Este código se ejecuta cuando el DOM está preparado y crea un objeto de contexto necesario para poder usar el modelo de objetos de SharePoint.
-    $(document).ready(function () {
+   /* $(document).ready(function () {
         getUserName();
-    });
+    });*/
 
     // Esta función prepara, carga y ejecuta una consulta de SharePoint para obtener información del usuario actual.
     function getUserName() {
