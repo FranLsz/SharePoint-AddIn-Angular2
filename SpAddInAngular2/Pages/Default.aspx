@@ -14,10 +14,7 @@
     <!-- Agregue sus estilos CSS al siguiente archivo -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
-    <!-- Agregue el código JavaScript al siguiente archivo -->
-    <script type="text/javascript" src="../Scripts/App.js"></script>
-
-    <!----------------- ANGULAR2sss -->
+    <!----------------- ANGULAR2 -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.33.3/es6-shim.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/systemjs/0.19.16/system-polyfills.js"></script>
     <script type="text/javascript" src="https://code.angularjs.org/2.0.0-beta.0/angular2-polyfills.js"></script>
